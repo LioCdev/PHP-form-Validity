@@ -42,10 +42,6 @@ $sujet = $_POST['sujet'];
 
 
 ?>
-<!-- <p>Merci <?= $name; ?> de nous avoir contacté à propos de <?= $_POST['sujet']; ?>.
-Un de nos conseiller vous contactera soit à l’adresse <?= $email; ?> ou par téléphone au <?= $phone; ?> dans les plus brefs délais pour traiter votre demande : 
-<?= $message; ?></p>
-         -->
 
 </body>
 
