@@ -5,7 +5,7 @@
     </div>
     <div>
       <label  for="courriel">Courriel :</label>
-        <input  type="email"  required="required" id="courriel"  name="user_email">
+        <input  type="email" required="required" id="courriel"  name="user_email">
     </div>
     <div>
         <label for="phone">Téléphone :</label>

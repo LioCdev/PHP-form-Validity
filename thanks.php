@@ -25,7 +25,7 @@ $sujet = $_POST['sujet'];
         } elseif (empty($email)) {
             $emailErr = "email is required";
             echo $emailErr;
-        } elseif (filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             $emailNotValid = "email is not valid";
             echo $emailNotValid;
         } elseif (empty($phone)) {
